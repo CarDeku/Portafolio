@@ -1,0 +1,83 @@
+-
+
+
+    //- <script>
+
+    //- ::: Functions Strings :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+    const now = new Date();
+    const year = now.getFullYear()
+    const segundos = now.getSeconds();
+
+
+    //- Mayuscula al primer caracter -//
+    const capitalize = ( string ) => {
+
+        return string.charAt(0).toUpperCase() + string.slice(1);
+
+    };
+
+
+    //- Convierte un String en url -//
+    const url = ( string ) => {
+
+        return string.replace(' / ', '-').replace('.', '').replace(/[, ]+/g, ' ').replace('/', '-').split(' ').join('-').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+
+    };
+
+    //- ::: Functions Dates ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+    //- Imprime la Fecha de HOY -//
+    const toDay = () => {
+
+        const now = new Date();
+        const now_year = now.getFullYear();
+        const now_month = now.getMonth() + 1;
+        const now_day = now.getUTCDate();
+        const now_weekday = now.getDay();
+        const now_hora = now.getHours();
+        const now_minutos = now.getMinutes();
+        const now_segundos = now.getSeconds();
+
+        const dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+        const mes = [" ", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+        const date_now = `${dias[now_weekday]}, ${now_day } de ${mes[now_month]} de ${now_year}`
+
+        return date_now
+
+    }
+
+
+
+    //- Imprime la Fecha de HOY -//
+    const toTime = () => {
+
+        const now  = new Date();
+
+        // Fragmentando la Fecha de HOY
+        const now_year    = now.getFullYear();
+        const now_month   = now.getMonth() + 1;
+        const now_day     = now.getUTCDate();
+        const now_weekday     = now.getDay();
+        const now_hora    = now.getHours();
+        const now_minutos = now.getMinutes();
+        const now_segundos = now.getSeconds();
+
+        const dias = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+        const mes = [" ", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+
+        const resolvedOptions = Intl.DateTimeFormat().resolvedOptions()
+
+        const date_now = `, a las ${now_hora}:${now_minutos}:${now_segundos}`
+
+        return date_now
+
+    }
+
+    //- </script>
+
+
+

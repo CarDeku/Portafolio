@@ -1,0 +1,142 @@
+/* Colors */
+@include generateColors("white", $default-white-color, $default-button-color);
+@include generateColors("black", $default-button-color);
+
+
+/* Colors by Google Meterial Design (C) */
+@include generateColors("red", $red);
+@include generateColors("pink", $pink);
+@include generateColors("purple", $purple);
+@include generateColors("deepPurple", $deepPurple);
+@include generateColors("deepIndigo", $deepIndigo);
+@include generateColors("indigo", $indigo);
+@include generateColors("blue", $blue);
+@include generateColors("cyan", $cyan);
+@include generateColors("teal", $teal);
+@include generateColors("green", $green);
+@include generateColors("lightGreen", $lightGreen);
+@include generateColors("lime", $lime);
+@include generateColors("yellow", $yellow, $default-button-color);
+@include generateColors("amber", $amber);
+@include generateColors("orange", $orange);
+@include generateColors("deepOrange", $deepOrange);
+@include generateColors("brown", $brown);
+@include generateColors("gray", $gray);
+@include generateColors("blueGray", $blueGray);
+
+
+.text-red {
+  color: #F44336FF;
+}
+
+
+.text-blue {
+  color: #2196F3FF;
+}
+
+.text-green {
+  color: #4CAF50FF;
+}
+
+
+/* Social Colors */
+@include generateColors("social-facebook", #3b5998);
+@include generateColors("social-twitter", #55acee);
+@include generateColors("social-googlePlus", #DD4330);
+@include generateColors("social-behance", #105DFB);
+@include generateColors("social-messenger", #0084fe);
+@include generateColors("social-medium", #12100E);
+@include generateColors("social-stumbleupon", #eb4924);
+@include generateColors("social-linkedin", #0077b5);
+@include generateColors("social-pinterest", #cc2127);
+@include generateColors("social-instagram", #e4405f);
+@include generateColors("social-tumblr", #34455D);
+@include generateColors("social-dribbble", #ea4c89);
+@include generateColors("social-youtube", #cd201f);
+@include generateColors("social-delicious", #3399ff);
+@include generateColors("social-digg", #000000);
+@include generateColors("social-vimeo", #fff, #1ab7ea);
+@include generateColors("social-whatsapp", #25D366);
+@include generateColors("social-xing", #026466);
+@include generateColors("social-youtube", #FC0D1C);
+
+
+/* Custom Color */
+@include generateColors("dev", #002b66);
+@include generateColors("startup-school", #00b5fc);
+@include generateColors("hacking-school", #003460);
+@include generateColors("devops-school", #0048ff);
+@include generateColors("mobile-school", #00c700);
+@include generateColors("full-stack-school", #fe0062);
+@include generateColors("data-school", #0095fc);
+@include generateColors("design-school", #4000c7);
+
+@include generateColors("bootcamps", #ebc864);
+
+
+/* Custom Color Course*/
+@include generateColors("python", #2A74D7);
+@include generateColors("postgresql", #0062a5);
+@include generateColors("dart", #040056);
+@include generateColors("python-2", #2666D5);
+@include generateColors("ux-ui", #4f35d4);
+@include generateColors("react", #00c3f6);
+@include generateColors("c-sharp", #ea2984);
+
+
+/*  FadeGrandient */
+.fadeGradient-bootcamp .content{
+  background: linear-gradient(to right, rgba(121, 2, 104, 0.9) 0, rgba(25, 11, 158, 0.9) 100%);
+
+
+}
+
+.fadeGradient-deepBlue .content{
+  background-image: radial-gradient(circle 248px at center, rgba(22, 217, 227, 0.9) 0%,  rgba(48, 199, 236, 0.9) 47%,  rgba(70, 174, 247, 0.9) 100%);
+}
+
+
+
+.fadeGradient-yellowOrange .content{
+  background: linear-gradient(to right, rgba(249, 212, 35, 0.9) 0,  rgba(255, 78, 80, 0.9) 100%);
+}
+
+.fadeGradient-facebook .content{
+  background: linear-gradient(to right, rgba(0, 198, 255, 0.8) 0, rgba(0, 120, 255, 0.8) 100%);
+}
+
+
+
+/* SVG Color White Slide */
+.svg-facebook { fill: #3b5998 !important;}
+.svg-twitter { fill: #55acee !important;}
+.svg-linkedin { fill: #0077b5 !important;}
+.svg-instagram { fill: #e4405f !important;}
+.svg-whatsapp { fill: #25D366 !important;}
+
+
+
+/*  FadeGrandient */
+.fadeGradient-blue-9 .content{background: linear-gradient(to right, rgba(10, 207, 254, 0.9) 0, rgba(73, 90, 255, 0.95) 100%)}
+.fadeGradient-blue-8 .content{background: linear-gradient(to right, rgba(10, 207, 254, 0.8) 0, rgba(73, 90, 255, 0.85) 100%)}
+.fadeGradient-blue-7 .content{background: linear-gradient(to right, rgba(10, 207, 254, 0.7) 0, rgba(73, 90, 255, 0.75) 100%)}
+
+
+.fadeGradient-dark-9 .content{background: linear-gradient(to right, rgba(67, 67, 67, 0.9) 0, rgba(0, 0, 0, 0.95) 100%)}
+.fadeGradient-dark-8 .content{background: linear-gradient(to right, rgba(67, 67, 67, 0.8) 0, rgba(0, 0, 0, 0.85) 100%)}
+.fadeGradient-dark-7 .content{background: linear-gradient(to right, rgba(67, 67, 67, 0.7) 0, rgba(0, 0, 0, 0.75) 100%)}
+
+.fadeGradient-soul-9 .content{background-image: radial-gradient(circle 500px at center, rgba(172, 50, 228, 0.9) 0%, rgba(121, 24, 242, 0.9) 50%, rgba(72, 1, 255, 0.9) 100%);}
+.fadeGradient-soul-8 .content{background-image: radial-gradient(circle 500px at center, rgba(172, 50, 228, 0.8) 0%, rgba(121, 24, 242, 0.8) 50%, rgba(72, 1, 255, 0.8) 100%);}
+.fadeGradient-soul-7 .content{background-image: radial-gradient(circle 500px at center, rgba(172, 50, 228, 0.7) 0%, rgba(121, 24, 242, 0.7) 50%, rgba(72, 1, 255, 0.7) 100%);}
+
+.fadeGradient-summer-9 .content{background-image: radial-gradient(circle 300px at center, rgba(22, 217, 227, 0.9) 0%, rgba(48, 199, 236, 0.9) 47%, rgba(84, 173, 255, 0.9) 100%);}
+.fadeGradient-summer-8 .content{background-image: radial-gradient(circle 300px at center, rgba(22, 217, 227, 0.8) 0%, rgba(48, 199, 236, 0.8) 47%, rgba(84, 173, 255, 0.8) 100%);}
+.fadeGradient-summer-7 .content{background-image: radial-gradient(circle 300px at center, rgba(22, 217, 227, 0.7) 0%, rgba(48, 199, 236, 0.7) 47%, rgba(84, 173, 255, 0.7) 100%);}
+
+
+.fadeGradient-white .content{background: linear-gradient(-180deg, rgba(255, 255, 255, 0.95) 10%, rgba(255, 255, 255, 1) 90%);}
+
+.slide.whiteSlideWithNoWhite {
+  color: #303030;
+}
