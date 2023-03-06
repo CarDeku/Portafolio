@@ -2,6 +2,7 @@
     //- Variables PUG/JS Locales - NIVEL 2
     const dir2 = '../';
     const dirBackground = '../assets/img/categories/backgrounds/';
+include ../../components/mixins
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,19 +14,47 @@
 </head>
 <body class="slides animated" >
 
-<section class="slide fade-6 kenBurns animate" data-title="Slide #58 (58)">
+//- Navbar nivel 2
+<nav class="panel top">
+    <div class="sections desktop hidden">
+        +logo('150', '150')
+        <div class="center">
+            <ul class="menu">
+                <li><a href="../">Pagína principal</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            +btn('Descargar CV','../assets/files/CarlosUrtubia-CV.pdf','small', 'download="CV_CarlosUrtubia"')
+        </div>
+    </div>
+
+    //- Seccion mobil
+    <div class="sections compact ">
+        +logo('100', '100')
+        <div class="right">
+            <ul class="menu">
+                <li><a href="../">Pagina Principal</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="slide fade-6 kenBurns animate " data-title="Slide #58 (58)">
     <div class="content">
         <div class="container">
             <div class="wrap">
                 <div class="fix-12-12 left">
-                    <h1 class="margin-bottom-2 ae-2">Terms &amp; Conditions</h1>
-                    <p class="larger light ae-3"><span class="opacity-8">Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the http://designmodo.com website (the “Service”) operated by Designmodo Inc. (“us”, “we”, or “our”). Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.</span></p>
-
-                    <h2 class="smallest margin-top-4 margin-bottom-2 ae-4">Communications</h2>
-                    <p class="ae-4"><span class="opacity-8">By creating an Account on our service, you agree to subscribe to newsletters, marketing or promotional materials and other information we may send. However, you may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or instructions provided in any email we send.</span></p>
-
-                    <h2 class="smallest margin-top-4 margin-bottom-2 ae-6">Purchases</h2>
-                    <p class="ae-6"><span class="opacity-8">If you wish to purchase any product or service made available through the Service (“Purchase”), you may be asked to supply certain information relevant to your Purchase including, without limitation, your credit card number, the expiration date of your credit card, your billing address, and your shipping information.</span></p>
+                    <h1 class="margin-bottom-2 ae-2">Carlos Urtubia</h1>
+                    <p class="larger light ae-3"><span class="opacity-8">Actualmente me dedico al area de la minería con mas de 10 años de experiencia en el rubro, pero mi meta es dedicarme al area de las Tecnologías, desde pequeño siempre me gustaron los computadores pero no tenía idea
+                        de todo el potencial que les podia sacar hasta cuando conosi la programación y se abrío un nuevo mundo para mi, soy una persona muy competitiva por lo que me la paso estudiando.</span></p>
+                        <h2 class="smallest margin-top-4 margin-bottom-2 ae-4">Algunas areas a las que le estoy dedicando tiempo de estudio</h2>
+                        <ul class="left">
+                            <li class="ae-4">Ingles</li>
+                            <li class="ae-5">Bases de datos</li>
+                            <li class="ae-6">Programación</li>
+                            <li class="ae-7">Desarrollo Web</li>
+                            <li class="ae-8">Administración de Servidores</li>
+                        </ul>
                 </div>
             </div>
         </div>

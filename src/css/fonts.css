@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*  Fonts  */
+.raleway {
+  font-family: 'Raleway', sans-serif !important; }
+
+.lato {
+  font-family: 'Lato', sans-serif !important; }
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif !important; }
+
+.roboto {
+  font-family: 'Roboto', sans-serif !important; }
+
+.bebas {
+  font-family: 'Bebas Neue', sans-serif !important; }
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word; }
+
+/*  Font Paragraps  */
+.slides,
+.slides p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+/*  Font Titles */
+.slides h1,
+.slides h2,
+.slides h3,
+.slides h4,
+.slides h5,
+.slides h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+/*  Font Button */
+.slides .button,
+.slides .slides-form {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900; }
+
+.md-10 {
+  font-size: 10px !important; }
+
+.md-12 {
+  font-size: 12px !important; }
+
+.md-14 {
+  font-size: 14px !important; }
+
+.md-16 {
+  font-size: 16px !important; }
+
+.md-18 {
+  font-size: 18px !important; }
+
+.md-19 {
+  font-size: 19px !important; }
+
+.md-20 {
+  font-size: 20px !important; }
+
+.md-22 {
+  font-size: 22px !important; }
+
+.md-24 {
+  font-size: 24px !important; }
+
+.md-26 {
+  font-size: 26px !important; }
+
+.md-28 {
+  font-size: 28px !important; }
+
+.md-30 {
+  font-size: 30px !important; }
+
+.md-36 {
+  font-size: 36px !important; }
+
+.md-48 {
+  font-size: 48px !important; }
+
+.md-44 {
+  font-size: 44px !important; }
+
+.md-60 {
+  font-size: 60px !important; }
+
+.md-72 {
+  font-size: 72px !important; }
+
+.md-90 {
+  font-size: 90px !important; }
+
+.md-bottom-1 {
+  bottom: -1px !important; }
+
+.md-bottom-2 {
+  bottom: -2px !important; }
+
+.md-bottom-3 {
+  bottom: -3px !important; }
+
+.md-bottom-4 {
+  bottom: -4px !important; }
+
+.md-bottom-5 {
+  bottom: -5px !important; }
+
+.md-bottom-6 {
+  bottom: -6px !important; }
+
+.md-bottom-7 {
+  bottom: -7px !important; }
+
+.md-bottom-8 {
+  bottom: -8px !important; }
+
+.md-bottom-9 {
+  bottom: -9px !important; }
+
+.md-bottom-10 {
+  bottom: -10px !important; }
+
+.letter-spacing-0 {
+  letter-spacing: -4px !important; }
+
+.letter-spacing-1 {
+  letter-spacing: -2px !important; }
+
+.letter-spacing-2 {
+  letter-spacing: -1px !important; }
+
+.letter-spacing-3 {
+  letter-spacing: 0 !important; }

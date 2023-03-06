@@ -25,7 +25,7 @@ include ../../components/mixins
 
 </head>
 
-<body class="slides smoothScroll animated fast">
+<body class="slides smoothScroll animated">
 
     //- Navbar nivel 2
     <nav class="panel top">
@@ -33,25 +33,28 @@ include ../../components/mixins
             +logo('150', '150')
             <div class="center">
                 <ul class="menu">
-                    <li><a href="../index.html">Principal</a></li>
-                    <li><a href="#">Upgrade</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Explore</a></li>
+                    <li><a href="../">Pagina Principal</a></li>
                 </ul>
             </div>
-            <div class="right"><a class="button blue rounded small" href="#">Profile</a></div>
+            <div class="right">
+                +btn('Descargar CV','../assets/files/CarlosUrtubia-CV.pdf','small', 'download="CV_CarlosUrtubia"')
+            </div>
         </div>
         //- sidebar
-        <div class="sections compact">
+        <div class="sections compact ">
             +logo('100', '100')
-            <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+            <div class="right">
+                <ul class="menu">
+                    <li><a href="../">Pagina Principal</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     //- certificados
-    <section class="slide fade-6 kenBurns margin-top-4" data-title="Slide #75 (75)">
+    <section class="slide fade-6 kenBurns" data-title="Slide #75 (75)">
         <div class="content">
-            <div class="container">
+            <div class="container margin-top-4">
                 <div class="wrap">
 
                     <div class="fix-8-12 toCenter animate ae-1 fromLeft">
